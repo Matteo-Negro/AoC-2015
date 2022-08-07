@@ -9,12 +9,12 @@ for index, char in enumerate(input):
     else:
         result -= 1
 
-    #Comment to run first part
+    # Comment to run first part
     if result == -1:
-        print('DAY01_2 result:', index+1)
+        print('DAY01_2 result:', index + 1)
         break
 
-#Take off the comment below to print the first result
-#print('DAY01_1 result: ', result)
+# Take off the comment below to print the first result
+# print('DAY01_1 result: ', result)
 
 file.close()
