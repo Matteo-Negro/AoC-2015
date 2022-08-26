@@ -15,4 +15,4 @@ for _ in range(50):
     tmp += charPrev
     input = tmp
 
-print('DAY10_1 result: ', len(input))
+print('DAY10 result: ', len(input))
