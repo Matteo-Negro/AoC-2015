@@ -36,4 +36,4 @@ model.objective = mp.minimize(mp.xsum(w[i] * weaponCost[i] for i in range(5)) +
 
 model.optimize()
 
-print(f'DAY21 reult: {model.objective.x}')
+print(f'DAY21_1 result: {model.objective.x}')
